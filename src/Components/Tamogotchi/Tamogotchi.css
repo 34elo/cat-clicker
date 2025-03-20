@@ -1,0 +1,32 @@
+/* tamagotchi.css */
+.tamagotchi-game {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #5e9bde;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #5e9bde;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4c7da5;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.game-over {
+    color: red;
+}

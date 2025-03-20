@@ -1,0 +1,48 @@
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+    background: linear-gradient(180deg, #FAF3E0, #F5E6CC); /* Градиентный фон */
+    font-family: 'Poppins', sans-serif;
+    color: #3D3D3D;
+}
+
+.game-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #3D3D3D;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15); /* Тень для текста */
+    margin-bottom: 20px;
+    animation: fadeInTitle 1s ease-in-out, floatTitle 3s infinite ease-in-out;
+}
+
+/* Анимация для плавного появления заголовка */
+@keyframes fadeInTitle {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Анимация для легкого покачивания заголовка */
+@keyframes floatTitle {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
