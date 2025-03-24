@@ -263,7 +263,6 @@ export default function Game() {
                         <div className="buttons-container">
                             <button onClick={buyFeed}>Купить покушать</button>
                             <button onClick={upLevel}>Улучшить кота ({level.cost})</button>
-                            <button onClick={() => { setOpen(true) }}>Вывод средств</button>
                         </div>
                     </div>}
         </div>
