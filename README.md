@@ -34,6 +34,9 @@ npm run dev
 ```
 
 ### Деплой
+```
+npm run predeploy
+```
 
 ```
 npm run deploy
